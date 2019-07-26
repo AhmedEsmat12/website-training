@@ -1,0 +1,277 @@
+.col, .col-1, .col-10, .col-11, .col-12, .col-2, .col-3, .col-4, .col-5, .col-6, .col-7, .col-8, .col-9, .col-auto, .col-lg, .col-lg-1, .col-lg-10, .col-lg-11, .col-lg-12, .col-lg-2, .col-lg-3, .col-lg-4, .col-lg-5, .col-lg-6, .col-lg-7, .col-lg-8, .col-lg-9, .col-lg-auto, .col-md, .col-md-1, .col-md-10, .col-md-11, .col-md-12, .col-md-2, .col-md-3, .col-md-4, .col-md-5, .col-md-6, .col-md-7, .col-md-8, .col-md-9, .col-md-auto, .col-sm, .col-sm-1, .col-sm-10, .col-sm-11, .col-sm-12, .col-sm-2, .col-sm-3, .col-sm-4, .col-sm-5, .col-sm-6, .col-sm-7, .col-sm-8, .col-sm-9, .col-sm-auto, .col-xl, .col-xl-1, .col-xl-10, .col-xl-11, .col-xl-12, .col-xl-2, .col-xl-3, .col-xl-4, .col-xl-5, .col-xl-6, .col-xl-7, .col-xl-8, .col-xl-9, .col-xl-auto {
+    padding-right: 5px;
+    padding-left: 5px;
+}
+img
+{
+    max-width: 100%;
+    width: 100%
+}
+.le
+{
+    background: gray;
+}
+.ri
+{
+    background: gray;
+}
+/* start navbar */
+.navb.container-fluid
+{
+    padding: 0;
+    margin-bottom: 10px;
+}
+.navb .navbar
+{
+    padding: 0
+}
+.navb .navbar-brand {
+    padding-top: 0;
+    padding-bottom: 0;
+     margin-right:30px;
+}
+.navb .nav-link
+{
+    border-right:2px solid #a7a1a1; 
+}
+.navb .bg-dark {
+    background-color: black!important;
+}
+.navb i{
+    margin-left: 20px;
+    color: white;
+}
+/* end navnar*/
+/* start info */
+.info
+{
+    border-bottom:3px solid black; 
+    padding-bottom: 15px;
+}
+.info img{
+    height: 200px;
+    margin-bottom: 10px;
+    width: 100%;
+}
+.info .salah
+{
+    height: 411px;
+}
+.info .po
+{
+    position: relative;
+}
+.info .po .group
+{
+    position: absolute;
+    top:30%;
+    left: 15%;
+}
+.info p
+{
+    color: white;
+}
+/* end info */
+/* start egypt */
+.egypt
+{
+padding: 25px 0px;
+border-bottom: 3px solid black;
+}
+.egypt img
+{
+    height: 180px;
+    padding: 0px 5px;
+}
+.egypt h1
+{
+    margin-left: 10px;
+    text-transform: capitalize;
+}
+/* end egypt */
+/* start features */
+.features
+{
+    padding: 20px;
+    border-bottom:3px solid black; 
+    margin-bottom: 20px;
+}
+.features img{
+    height: 800px;
+    margin-bottom: 15px;
+}
+.features .go
+{
+position: relative;
+}
+.features .group
+{
+    position: absolute;
+    bottom: 0;
+    left: 10%;;
+}
+.features .group p
+{
+    color: white;
+}
+.features .rr >div
+{
+    margin-bottom: 18px;
+}
+.features .rr p
+{
+display: inline;
+}
+/* end features */
+/* start world */
+.world
+{
+    margin-bottom: 30px;
+}
+.item {
+     width: 20%;
+    }
+    .item img
+    {
+        height: 110px;
+    }
+
+#exampleSlider {
+    position: relative;      /* recommended */
+}
+#exampleSlider .MS-content {
+    white-space: nowrap;     /* required */
+    overflow: hidden;        /* required */
+    margin: 0 5%;            /* makes room for L/R arrows */
+}
+#exampleSlider .MS-content .item {
+    display: inline-block;   /* required */
+    width: 20%;              /* required * Determines number of visible slides */ 
+    position: relative;      /* required */
+    vertical-align: top;     /* required */
+    overflow: hidden;        /* required */
+    height: 100%;            /* recommended */
+    white-space: normal;     /* recommended */
+}
+#exampleSlider .MS-controls button {
+    position: absolute;      /* recommended */
+    top: 35px;
+}
+#exampleSlider .MS-controls .MS-left {
+    left: 10px;
+}
+#exampleSlider .MS-controls .MS-right {
+    right: 10px;
+}
+/* end world */
+/* start sec */
+.sec
+{
+    padding-left: 25px;
+    border-top:3px solid red;
+    padding-top: 20px; 
+    /* padding-right:2%  */
+}
+.sec img{
+height: 209px;
+}
+.sec p{
+    font-size: 13px;
+    margin-bottom: 5px
+}
+.sec h5
+{
+        font-size: 1.1rem;
+}
+.rec
+{
+    border-top:3px solid red;
+    padding-top: 20px; 
+    padding-left:2%; 
+    /* border-bottom: 5px solid black; */
+    height: 485px;
+    margin-left: 4%;
+    margin-bottom: 30px;
+    height: 100%;
+
+}
+.rec img
+{
+    height: 120px;
+    margin-bottom: 15px;
+}
+.rec p
+{
+    font-size: 13px;
+    margin-bottom: 7px;
+}
+
+.rec h1 {
+    font-size: 1.7rem;
+}
+.recomand
+{
+    height: 405px;
+    overflow: auto;
+    overflow-x: hidden;
+
+}
+.opinion
+{
+    border-left:1px solid black;
+    padding-left: 25px;
+}
+.opinion img
+{
+    border-radius:50%;
+    overflow: hidden; 
+}
+.opinion h5
+{
+    padding-left: 26px;
+    color: red;
+}
+.opinion p
+{
+    padding-left: 54px;
+    font-size: 16px;
+    margin-bottom: 20px;
+  
+}
+/* end sec */
+/* start footer */
+.footer
+{
+    padding-top: 20px;
+    border-top:3px solid red;
+    background: #231f20;
+}
+.footer img
+{
+    padding-right: 15px;
+}
+.footer li{
+    color: white;
+    margin-bottom: 20px;
+    text-align: center
+}
+.footer li a
+{
+    color: white;
+    text-decoration: none;
+}
+.footer .www
+{
+    text-align: center
+}
+.footer .www i 
+{
+    padding-left:25px ;
+    color: white;
+}
+p.copy
+{
+    color: white;
+    
+}
+/* end footer */
