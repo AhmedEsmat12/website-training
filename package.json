@@ -1,0 +1,16 @@
+{
+  "name": "train",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.js",
+  "scripts": {
+    "deploy": "gh-pages -d task"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "homepage": "https://ahmedesmat12.github.io/website-training",
+  "dependencies": {
+    "gh-pages": "^2.0.1"
+  }
+}
